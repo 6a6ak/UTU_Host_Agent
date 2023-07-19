@@ -32,7 +32,7 @@ while true; do
  6) ./modules/install_composer.sh;;
  7) ./modules/install_yarn.sh;;
  8) ./modules/restart_apache.sh;;
- 0) exit;;
+ 0) clear && exit;;
     *) echo "Invalid option.";;
   esac
 done

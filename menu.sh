@@ -1,17 +1,15 @@
 #!/bin/bash
-clear
 
-text="\e[1m                 Ubuntu Host Manager            \e[0m"
+
+# Define the main menu function
+function main_menu() {
+    text="\e[1m                 Ubuntu Host Manager            \e[0m"
 footer="\e[1m                                                \e[0m"
 color="\e[48;2;70;130;180m"  # Use RGB values for the desired color
 width=$(tput cols)
 padding=$((($width - ${#text}) ))
 echo -ne "${color}${text}\033[0m\n"
 
-
-# Define the main menu function
-function main_menu() {
-    
     echo "------------------------------------------------"
     echo 
     echo "  1. Run Apache Manager"
@@ -51,7 +49,7 @@ function menu_options() {
             ;;
         0) 
             echo "Exiting the program"
-            exit 0
+            clear && exit 0
             ;;
         *)
             echo "Invalid option"
