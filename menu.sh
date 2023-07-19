@@ -10,7 +10,7 @@ echo -ne "${color}${text}\033[0m\n"
 
 # Define the main menu function
 function main_menu() {
-    clear
+    
     echo "----------------------------------"
     echo " MAIN MENU"
     echo "----------------------------------"
