@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-text="\e[1m                  AdBud Ubuntu-Web-Server-Utilities v 0.9                   \e[0m"
+text="\e[1m                  Ubuntu-Web-Server-Utilities v 0.9                   \e[0m"
 color="\e[44m"
 width=$(tput cols)
 padding=$(( ($width - ${#text}) / 2 ))
