@@ -18,6 +18,7 @@ function main_menu() {
     echo "  2. Run Apache Agent"
     echo "  3. Run PHP Manager"
     echo "  4. Run PHP Controler"
+    echo "  5. Install Composer,Yarn,MongoDB ..."
     echo "  0. Exit"
     echo 
     echo "Please enter your choice: "
@@ -43,6 +44,10 @@ function menu_options() {
         4)
             echo "Running PHP Controler"
             sudo update-alternatives --config php
+            ;;
+        5)
+            echo "Running PHP Dependesies Installer"
+            bash ./setup.sh
             ;;
         0) 
             echo "Exiting the program"
