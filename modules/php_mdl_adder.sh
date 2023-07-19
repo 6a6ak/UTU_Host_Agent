@@ -7,7 +7,7 @@ padding=$(( ($width - ${#text}) / 2 ))
 #tput cup 2 $padding
 echo -ne "${color}${text}\033[0m\n"
 
-text="\e[1m                  ADBUD PHP_Module_Adder v 0.9                   \e[0m"
+text="\e[1m                  PHP_Module_Adder v 0.9                   \e[0m"
 color="\e[48;2;71;74;138m"
 width=$(tput cols)
 padding=$(( ($width - ${#text}) / 2 ))
