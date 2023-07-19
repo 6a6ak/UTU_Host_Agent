@@ -12,9 +12,9 @@ echo -ne "${color}${text}\033[0m\n"
 # Define the main menu function
 function main_menu() {
     
-    echo "----------------------------------"
-    echo "            MAIN MENU"
-    echo "----------------------------------"
+    echo "--------------------------------------------------"
+    echo "                       MAIN MENU"
+    echo "--------------------------------------------------"
     echo "1. Run Apache Manager"
     echo "2. Run Apache Agent"
     echo "3. Run PHP Manager"
