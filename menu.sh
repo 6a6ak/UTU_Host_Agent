@@ -19,7 +19,7 @@ function main_menu() {
     echo "  3. Run PHP Manager"
     echo "  4. Run PHP Controler"
     echo "  0. Exit"
-    echo
+    echo 
     echo "Please enter your choice: "
     read selection
     echo
