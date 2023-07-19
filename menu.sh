@@ -1,5 +1,5 @@
 #!/bin/bash
-clear
+
 
 text="\e[1m                 Ubuntu Host Manager            \e[0m"
 footer="\e[1m                                                \e[0m"
@@ -11,7 +11,7 @@ echo -ne "${color}${text}\033[0m\n"
 
 # Define the main menu function
 function main_menu() {
-    clear
+    
     echo "----------------------------------"
     echo "            MAIN MENU"
     echo "----------------------------------"
