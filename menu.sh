@@ -12,13 +12,13 @@ echo -ne "${color}${text}\033[0m\n"
 # Define the main menu function
 function main_menu() {
     
-    echo "--------------------------------------------------"
-    echo S
-    echo "1. Run Apache Manager"
-    echo "2. Run Apache Agent"
-    echo "3. Run PHP Manager"
-    echo "4. Run PHP Controler"
-    echo "0. Exit"
+    echo "------------------------------------------------"
+    echo 
+    echo "  1. Run Apache Manager"
+    echo "  2. Run Apache Agent"
+    echo "  3. Run PHP Manager"
+    echo "  4. Run PHP Controler"
+    echo "  0. Exit"
     echo
     echo "Please enter your choice: "
     read selection
