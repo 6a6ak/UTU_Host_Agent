@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 
 text="\e[1m                 Ubuntu Host Manager            \e[0m"
 footer="\e[1m                                                \e[0m"
