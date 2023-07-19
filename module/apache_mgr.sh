@@ -1,5 +1,4 @@
 #!/bin/bash
-f35b04
 while true; do
     clear
 

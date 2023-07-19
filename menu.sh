@@ -3,25 +3,26 @@ clear
 
 text="\e[1m                 Ubuntu Host Manager            \e[0m"
 footer="\e[1m                                                \e[0m"
-color="\e[48;2;243;91;4m"
+color="\e[48;2;70;130;180m"  # Use RGB values for the desired color
 width=$(tput cols)
 padding=$((($width - ${#text}) ))
 echo -ne "${color}${text}\033[0m\n"
 
+
 # Define the main menu function
 function main_menu() {
-    clear
-    echo "----------------------------------"
-    echo " MAIN MENU"
-    echo "----------------------------------"
-    echo "1. Run Apache Manager"
-    echo "2. Run Apache Agent"
-    echo "3. Run PHP Manager"
-    echo "4. Run PHP Controler"
-    echo "0. Exit"
-    echo
-    echo "Please enter your choice: "
-    read selection
+    
+    echo "------------------------------------------------"
+    echo "                     MAIN MENU"
+    echo "------------------------------------------------"
+    echo "   1. Run Apache Manager"
+    echo "   2. Run Apache Agent"
+    echo "   3. Run PHP Manager"
+    echo "   4. Run PHP Controler"
+    echo "   0. Exit"
+    echo   
+    echo "   Please enter your choice: "
+      read selection
     echo
 }
 
