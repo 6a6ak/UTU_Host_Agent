@@ -42,7 +42,7 @@ function menu_options() {
             ;;
         4)
             echo "Running PHP Controler"
-            bash ./module/php_controler.sh
+            sudo update-alternatives --config php
             ;;
         0) 
             echo "Exiting the program"
