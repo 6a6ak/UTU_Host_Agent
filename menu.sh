@@ -13,7 +13,7 @@ echo -ne "${color}${text}\033[0m\n"
 function main_menu() {
     clear
     echo "----------------------------------"
-    echo " MAIN MENU"
+    echo "            MAIN MENU"
     echo "----------------------------------"
     echo "1. Run Apache Manager"
     echo "2. Run Apache Agent"
