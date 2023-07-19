@@ -1,6 +1,6 @@
 #!/bin/bash
 while true; do
-    clear
+clear
 
 
 text="\e[1m                 Apache Manager            \e[0m"
