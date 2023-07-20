@@ -18,7 +18,8 @@ while true; do
  echo "     5. Install MongoDB"
  echo "     6. Install Composer"
  echo "     7. Install Yarn"
- echo "     8. Restart Apache"   
+ echo "     8. Install Node.JS"
+ echo "     9. Restart Apache"  
  echo "          0. Exit"
   read -p "     Option: " option
 
@@ -31,7 +32,8 @@ while true; do
  5) ./modules/MonDB_installer.sh;;
  6) ./modules/install_composer.sh;;
  7) ./modules/install_yarn.sh;;
- 8) ./modules/restart_apache.sh;;
+ 8) ./modules/nodejs.sh;;
+ 9) ./modules/restart_apache.sh;;
  0) clear && exit;;
     *) echo "Invalid option.";;
   esac

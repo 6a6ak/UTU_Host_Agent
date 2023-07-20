@@ -17,6 +17,7 @@ echo -ne "${color}${text}\033[0m\n"
     echo "  3. Run PHP Manager"
     echo "  4. Run PHP Controler"
     echo "  5. Install Composer,Yarn,MongoDB ..."
+    echo "  6. Enable Website & VHost"
     echo "  0. Exit"
     echo 
     echo "Please enter your choice: "
@@ -46,6 +47,10 @@ function menu_options() {
         5)
             echo "Running PHP Dependesies Installer"
             bash ./setup.sh
+            ;;
+        6)
+            echo "Enable website and vhost"
+            bash ./module/enable_site.sh
             ;;
         0) 
             echo "Exiting the program"
